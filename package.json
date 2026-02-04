@@ -1,0 +1,53 @@
+{
+  "name": "vue-formik-nuxt4",
+  "version": "0.2.3",
+  "description": "Nuxt 4 module for vue-formik – form management for Vue.js",
+  "type": "module",
+  "main": "module.ts",
+  "types": "module.ts",
+  "exports": {
+    ".": {
+      "types": "./module.ts",
+      "import": "./module.ts",
+      "require": "./module.ts"
+    }
+  },
+  "files": [
+    "runtime",
+    "module.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vue-formik/vue-formik-nuxt4"
+  },
+  "keywords": [
+    "vue",
+    "formik",
+    "nuxt",
+    "nuxt4",
+    "vue-formik",
+    "form",
+    "validation"
+  ],
+  "author": {
+    "name": "Kiran Parajuli",
+    "email": "kiranparajuli589@gmail.com"
+  },
+  "license": "LGPL-3.0-or-later",
+  "peerDependencies": {
+    "nuxt": "^4.0.0",
+    "vue-formik": ">=0.2.0"
+  },
+  "peerDependenciesMeta": {
+    "vue-formik": {
+      "optional": false
+    }
+  },
+  "devDependencies": {
+    "@nuxt/kit": "^4.0.0",
+    "nuxt": "^4.0.0",
+    "vue-formik": "^0.2.0"
+  }
+}
