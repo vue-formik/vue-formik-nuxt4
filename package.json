@@ -1,6 +1,6 @@
 {
   "name": "vue-formik-nuxt4",
-  "version": "0.2.3",
+  "version": "0.1.1",
   "description": "Nuxt 4 module for vue-formik – form management for Vue.js",
   "type": "module",
   "main": "module.ts",
